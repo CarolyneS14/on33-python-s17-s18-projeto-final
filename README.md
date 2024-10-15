@@ -18,13 +18,64 @@ Bases tratadas na aula da semana 17 [Feminicidio](https://github.com/CarolyneS14
 e [Homicidios](https://github.com/CarolyneS14/on33-python-s17-s18-projeto-final/blob/main/homicidios_femininos.csv) disponiveis neste repositório.
 
 Após tratamento minha base de dados ficou assim:
-A base final de dados [FeminicidioPorEstado]() é composta por () colunas:
-- Descrever as colunas
-- Descrever as colunas
-- Descrever as colunas
-- Descrever as colunas
-- Descrever as colunas
-- Descrever as colunas
+A base final de dados [FeminicidioPorEstado](https://github.com/CarolyneS14/on33-python-s17-s18-projeto-final/blob/main/feminicidio.csv) é composta por 56 colunas:
+
+ 0   estado                                                         27 non-null     object 
+ 1   siglas                                                         27 non-null     object 
+ 2   regiao                                                         27 non-null     object 
+ 3   total_municipos_por_estado(IBGE)                               27 non-null     int64  
+ 4   renda_per_capita(IBGE)                                         27 non-null     int64  
+ 5   idh(IBGE)                                                      27 non-null     float64
+ 6   taxa_desemprego_feminino                                       27 non-null     float64
+ 7   delegacias_especializadas_de_atendimento_a_mulher              27 non-null     int64  
+ 8   feminicidio_tentado_2024(LESFEM)                               27 non-null     int64  
+ 9   feminicidio_consumado_2024(LESFEM)                             27 non-null     int64  
+ 10  ano_2024                                                       27 non-null     int64  
+ 11  feminicidio_tentado_2023(FBSP)                                 27 non-null     int64  
+ 12  feminicidio_consumado_2023(FBSP)                               27 non-null     int64  
+ 13  ano_2023                                                       27 non-null     int64  
+ 14  feminicidio_tentado_2022(FBSP)                                 26 non-null     float64
+ 15  feminicidio_consumado_2022(FBSP)                               27 non-null     int64  
+ 16  ano_2022                                                       27 non-null     int64  
+ 17  feminicidio_tentado_2021(FBSP)                                 25 non-null     float64
+ 18  feminicidio_consumado_2021(FBSP)                               27 non-null     int64  
+ 19  ano_2021                                                       27 non-null     int64  
+ 20  Feminicidio Tentado                                            23 non-null     float64
+ 21  Feminicidio Consumado                                          27 non-null     int64  
+ 22  ano_2020                                                       27 non-null     int64  
+ 23  indicador_conferencia_politicas_para_mulheres                  27 non-null     object 
+ 24  %_total_numero_municipios_conferencia_politicas_para_mulheres  27 non-null     float64
+ 25  numero_municipios_conferencia_politicas_para_mulheres          27 non-null     int64  
+ 26  indicador_protecao_vitimas_violencia                           27 non-null     object 
+ 27  %_total_numero_municipios_protecao_vitimas_violencia           27 non-null     float64
+ 28  numero_municipios_protecao_vitimas_violencia                   27 non-null     int64  
+ 29  indicador_lei_especifica_violencia                             27 non-null     object 
+ 30  %_total_numero_municipios_lei_especifica_violencia             27 non-null     float64
+ 31  numero_municipios_lei_especifica_violencia                     27 non-null     int64  
+ 32  indicador_prog_específicas_para_mulheres                       27 non-null     object 
+ 33  %_total_numero_municipios_prog_específicas_para_mulheres       27 non-null     float64
+ 34  numero_municipios_prog_específicas_para_mulheres               27 non-null     int64  
+ 35  indicador_acoes_PM                                             27 non-null     object 
+ 36  acoes_junto_a_PM                                               27 non-null     object 
+ 37  tentativa_2020                                                 27 non-null     int64  
+ 38  consumado_2020                                                 27 non-null     int64  
+ 39  tentativa_2021                                                 27 non-null     int64  
+ 40  consumado_2021                                                 27 non-null     int64  
+ 41  tentativa_2022                                                 27 non-null     int64  
+ 42  consumado_2022                                                 27 non-null     int64  
+ 43  tentativa_2023                                                 27 non-null     int64  
+ 44  consumado_2023                                                 27 non-null     int64  
+ 45  total_tentativas_homicidio                                     27 non-null     int64  
+ 46  total_homicidio_consumado                                      27 non-null     int64  
+ 47  homicidios_2020                                                27 non-null     int64  
+ 48  homicidios_2021                                                27 non-null     int64  
+ 49  homicidios_2022                                                27 non-null     int64  
+ 50  homicidios_2023                                                27 non-null     int64  
+ 51  total_feminicidios_2020                                        23 non-null     float64
+ 52  total_feminicidios_2021                                        25 non-null     float64
+ 53  total_feminicidios_2022                                        26 non-null     float64
+ 54  total_feminicidios_2023                                        27 non-null     int64  
+ 55  total_feminicidios_2024
 
   ### 📚 Ferramentas Utilizadas:
   
