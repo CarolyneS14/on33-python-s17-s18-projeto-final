@@ -80,13 +80,15 @@ A base final de dados [FeminicidioPorEstado](https://github.com/CarolyneS14/on33
   ### 📚 Ferramentas Utilizadas:
   
 - [Google Colab](https://colab.research.google.com/drive/1kBkcopqrCuFdA_tWDo7EajIDLIsOxBSM?usp=sharing) para realizar a limpeza e a análise estatística dos dados.
-- [Public Tableau]() dashboard e painel de visualização de dados.
+- [Public Tableau](https://public.tableau.com/app/profile/carolyne.santos.de.oliveira/viz/on33-python-s17-s18-projeto-finalEstatsticaCriminaldoFeminicdionasUnidadesdaFederao/Apresentao) dashboard e painel de visualização de dados.
+- [PowerPoint](https://docs.google.com/presentation/d/1-cumN-GNFIULjQmLKfj6SaBLprnBsW-P/edit?usp=drive_link&ouid=103014318842924902559&rtpof=true&sd=true)
+- [Video Apresentacao](https://drive.google.com/file/d/1lZxBdchThomdWXp4tqIjX7Kd5q6aqgaS/view?usp=drive_link)
 
 ## 📈 Dashboard
 
 Link para consulta do dashboard no tableau Public:
 
-[Dashboard Feminicidio Por Estado]( )
+[Dashboard Feminicidio Por Estado](https://public.tableau.com/app/profile/carolyne.santos.de.oliveira/viz/on33-python-s17-s18-projeto-finalEstatsticaCriminaldoFeminicdionasUnidadesdaFederao/Apresentao)
 
 ## 📋 Passo a Passo
 
