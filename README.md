@@ -86,9 +86,13 @@ A base final de dados [FeminicidioPorEstado](https://github.com/CarolyneS14/on33
   ### 📚 Ferramentas Utilizadas:
   
 - [Google Colab](https://colab.research.google.com/drive/1kBkcopqrCuFdA_tWDo7EajIDLIsOxBSM?usp=sharing) para realizar a limpeza e a análise estatística dos dados.
+</br>
 - [Public Tableau](https://public.tableau.com/app/profile/carolyne.santos.de.oliveira/viz/on33-python-s17-s18-projeto-finalEstatsticaCriminaldoFeminicdionasUnidadesdaFederao/Apresentao2) dashboard e painel de visualização de dados.
-- [PowerPoint](https://docs.google.com/presentation/d/1RHGsovdnWhP2myDpJVKSPxXjwzhzCGcH/edit?usp=drive_link&ouid=103014318842924902559&rtpof=true&sd=true)
-- [Video Apresentacao](https://drive.google.com/file/d/1lZxBdchThomdWXp4tqIjX7Kd5q6aqgaS/view?usp=drive_link)
+</br>
+- [PowerPoint](https://docs.google.com/presentation/d/1RHGsovdnWhP2myDpJVKSPxXjwzhzCGcH/edit?usp=drive_link&ouid=103014318842924902559&rtpof=true&sd=true) com a apresentação do projeto.
+</br>
+- [Video de Apresentação do Projeto](https://drive.google.com/file/d/1lZxBdchThomdWXp4tqIjX7Kd5q6aqgaS/view?usp=drive_link)
+</br>
 
 ## 📈 Dashboard
 
@@ -149,16 +153,22 @@ Reforçamos a importância de mais investimentos em proteção e conscientizaç�
 Uma abordagem multifacetada é essencial para reduzir esses números e promover uma sociedade mais segura para todas as mulheres.
     
  ### - Links Uteis:
-
+</br>
 🌎 [Mapa das Delegacias da Mulher](https://azmina.com.br/projetos/delegacia-da-mulher/)
+</br>
 🌎 [Monitor de Feminicídios da UEL1 (LESFEM)](https://sites.uel.br/lesfem/monitor-brasil/)
+</br>
 🌎 [O Fórum Brasileiro de Segurança Pública (FBSP)](https://forumseguranca.org.br/painel-violencia-contra-a-mulher/)
+</br>
 🌎 [O Atlas da Violência](https://www.ipea.gov.br/atlasviolencia/quem/3/sobre)
+</br>
 🌎 [Google DataSet](https://datasetsearch.research.google.com/search?src=0&query=feminic%C3%ADdio&docid=L2cvMTFrcGQyN3d4MQ%3D%3D)
+</br>
 🌎 [Base dos Dados](https://basedosdados.org/)
-🌎 []()
+</br>
 
 ## 👩🏻‍🏫 Professora Patrícia Bongiovanni Catandi.
-[GitHub](https://github.com/patriciacatandi "Patricia Catandi")
-
-[Material](https://github.com/CarolyneS14/on33-python-s17-s18-projeto-final/blob/main/S17S18-Projeto-Livre.pdf)
+</br>
+📖 [Material](https://github.com/CarolyneS14/on33-python-s17-s18-projeto-final/blob/main/S17S18-Projeto-Livre.pdf)
+</br>
+ [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/patriciacatandi)
