@@ -24,64 +24,64 @@ e [Homicidios](https://github.com/CarolyneS14/on33-python-s17-s18-projeto-final/
 Após tratamento minha base de dados ficou assim:
 A base final de dados [FeminicidioPorEstado](https://github.com/CarolyneS14/on33-python-s17-s18-projeto-final/blob/main/feminicidio.csv) é composta por 56 colunas:
 
-        | INDICE  | NOME DAS COLUNAS | CONTEUDO |
-        | ----- | --- | :---: |
-        |  0  |  estado  |  (26 Estados mais o Distrito Federal)  |
-        |  1  |  siglas  |  (Silas dos 26 Estados mais Distrito Federal)  |
-        |  2  |  regiao  |  (Regioes: Norte, Nordeste, Sul, Sudeste, Centro_Oeste)  |
-        |  3  |  total_municipos_por_estado(IBGE)  |  (Quantidade de Municipios por Estado)  |
-        |  4  |  renda_per_capita(IBGE)  |  (Renda Feminina Per Capta de cada Estado)  |
-        |  5  |  idh(IBGE)  |  (Taxa de IDH de casa Estado)  |
-        |  6  |  taxa_desemprego_feminino  |  (Taxa de desemprego Feminino, segundo IBGE)  |
-        |  7  |  delegacias_especializadas_de_atendimento_a_mulher  |  (Quantidade de Delegacias Especializadas por Estado)  |
-        |  8  |  feminicidio_tentado_2024(LESFEM)  |  (Quantidade de Feminicidio TENTADO no ano de 2024 por Estado)  |
-        |  9  |  feminicidio_consumado_2024(LESFEM)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2024 por Estado)  |
-        |  10  |  ano_2024  |  (Coluna do Ano de 2024)  |
-        |  11  |  feminicidio_tentado_2023(FBSP)  |  (Quantidade de Feminicidio TENTADO no ano de 2023 por Estado)  | 
-        |  12  |  feminicidio_consumado_2023(FBSP)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2023 por Estado)  |
-        |  13  |  ano_2023  |  (Coluna do Ano de 2023)  | 
-        |  14  |  feminicidio_tentado_2022(FBSP)  |  (Quantidade de Feminicidio TENTADO no ano de 2022 por Estado)  |
-        |  15  |  feminicidio_consumado_2022(FBSP)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2022 por Estado)  |
-        |  16  |  ano_2022  |  (Coluna do Ano de 2022)  |
-        |  17  |  feminicidio_tentado_2021(FBSP)  |  (Quantidade de Feminicidio TENTADO no ano de 2021 por Estado)  |
-        |  18  |  feminicidio_consumado_2021(FBSP)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2021 por Estado)  |
-        |  19  |  ano_2021  |  (Coluna do Ano de 2021)  |
-        |  20  |  Feminicidio Tentado  |  (Quantidade de Feminicidio TENTADO no ano de 2020 por Estado)  | 
-        |  21  |  Feminicidio Consumado  |  (Quantidade de Feminicidio CONSUMADO no ano de 2020 por Estado)  |
-        |  22  |  ano_2020  |  (Coluna do Ano de 2020)  |
-        |  23  |  indicador_conferencia_politicas_para_mulheres  |  (FRASE = 'Conferências nos últimos quatro anos sobre política para mulheres')  |
-        |  24  |  %_total_numero_municipios_conferencia_politicas_para_mulheres  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |
-        |  25  |  numero_municipios_conferencia_politicas_para_mulheres  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |           
-        |  26  |  indicador_protecao_vitimas_violencia  |  (FRASE = 'Proteção de mulheres vítimas de violência doméstica')  |                            
-        |  27  |  %_total_numero_municipios_protecao_vitimas_violencia  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |           
-        |  28  |  numero_municipios_protecao_vitimas_violencia  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |                   
-        |  29  |  indicador_lei_especifica_violencia  |  (FRASE = 'Lei Específica sobre Enfrentamento à violência contra a mulher')  |                              
-        |  30  |  %_total_numero_municipios_lei_especifica_violencia  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |             
-        |  31  |  numero_municipios_lei_especifica_violencia  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |                       
-        |  32  |  indicador_prog_específicas_para_mulheres  |  (FRASE = 'Programas e ações específicas para mulheres')  |                        
-        |  33  |  %_total_numero_municipios_prog_específicas_para_mulheres  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |       
-        |  34  |  numero_municipios_prog_específicas_para_mulheres  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |               
-        |  35  |  indicador_acoes_PM  |  (FRASE = 'Ações de Prevenção da Polícia Militar quanto ao Enfrentamento à Violência doméstica e de gênero')  |                                             
-        |  36  |  acoes_junto_a_PM  |  (SIM ou NÃO para o estado que aplica ou não esta política pública)  |                                                
-        |  37  |  tentativa_2020  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2020 por Estado)  |                                              
-        |  38  |  consumado_2020  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2020 por Estado)  |   
-        |  39  |  tentativa_2021  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2021 por Estado)  |                                                   
-        |  40  |  consumado_2021  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2021 por Estado)  |                                                  
-        |  41  |  tentativa_2022  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2022 por Estado)  |                                                
-        |  42  |  consumado_2022  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2022 por Estado)  |                                                  
-        |  43  |  tentativa_2023  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2023 por Estado)  |                                                 
-        |  44  |  consumado_2023  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2023 por Estado)  |                                                  
-        |  45  |  total_tentativas_homicidio  |  (Soma de todas as colunas de todos os anos de Homicidio Feminino TENTADO por Estado)  |                                     
-        |  46  |  total_homicidio_consumado  |  (Soma de todas as colunas de todos os anos de Homicidio Feminino CONSUMADO por Estado)  |                  
-        |  47  |  homicidios_2020  |  (Total de Homicidios Femininos ocorridos no ano de 2020)  |                                                
-        |  48  |  homicidios_2021  |  (Total de Homicidios Femininos ocorridos no ano de 2021)  |                                                  
-        |  49  |  homicidios_2022  |  (Total de Homicidios Femininos ocorridos no ano de 2022)  |                                                  
-        |  50  |  homicidios_2023  |  (Total de Homicidios Femininos ocorridos no ano de 2023)  |                                                  
-        |  51  |  total_feminicidios_2020  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2020)  |                                        
-        |  52  |  total_feminicidios_2021  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2021)  |                                        
-        |  53  |  total_feminicidios_2022  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2022)  |                                        
-        |  54  |  total_feminicidios_2023  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2023)  |                                          
-        |  55  |  total_feminicidios_2024  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2024)  |
+| INDICE  | NOME DAS COLUNAS | CONTEUDO |
+| ----- | --- | :---: |
+|  0  |  estado  |  (26 Estados mais o Distrito Federal)  |
+|  1  |  siglas  |  (Silas dos 26 Estados mais Distrito Federal)  |
+|  2  |  regiao  |  (Regioes: Norte, Nordeste, Sul, Sudeste, Centro_Oeste)  |
+|  3  |  total_municipos_por_estado(IBGE)  |  (Quantidade de Municipios por Estado)  |
+|  4  |  renda_per_capita(IBGE)  |  (Renda Feminina Per Capta de cada Estado)  |
+|  5  |  idh(IBGE)  |  (Taxa de IDH de casa Estado)  |
+|  6  |  taxa_desemprego_feminino  |  (Taxa de desemprego Feminino, segundo IBGE)  |
+|  7  |  delegacias_especializadas_de_atendimento_a_mulher  |  (Quantidade de Delegacias Especializadas por Estado)  |
+|  8  |  feminicidio_tentado_2024(LESFEM)  |  (Quantidade de Feminicidio TENTADO no ano de 2024 por Estado)  |
+|  9  |  feminicidio_consumado_2024(LESFEM)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2024 por Estado)  |
+|  10  |  ano_2024  |  (Coluna do Ano de 2024)  |
+|  11  |  feminicidio_tentado_2023(FBSP)  |  (Quantidade de Feminicidio TENTADO no ano de 2023 por Estado)  | 
+|  12  |  feminicidio_consumado_2023(FBSP)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2023 por Estado)  |
+|  13  |  ano_2023  |  (Coluna do Ano de 2023)  | 
+|  14  |  feminicidio_tentado_2022(FBSP)  |  (Quantidade de Feminicidio TENTADO no ano de 2022 por Estado)  |
+|  15  |  feminicidio_consumado_2022(FBSP)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2022 por Estado)  |
+|  16  |  ano_2022  |  (Coluna do Ano de 2022)  |
+|  17  |  feminicidio_tentado_2021(FBSP)  |  (Quantidade de Feminicidio TENTADO no ano de 2021 por Estado)  |
+|  18  |  feminicidio_consumado_2021(FBSP)  |  (Quantidade de Feminicidio CONSUMADO no ano de 2021 por Estado)  |
+|  19  |  ano_2021  |  (Coluna do Ano de 2021)  |
+|  20  |  Feminicidio Tentado  |  (Quantidade de Feminicidio TENTADO no ano de 2020 por Estado)  | 
+|  21  |  Feminicidio Consumado  |  (Quantidade de Feminicidio CONSUMADO no ano de 2020 por Estado)  |
+|  22  |  ano_2020  |  (Coluna do Ano de 2020)  |
+|  23  |  indicador_conferencia_politicas_para_mulheres  |  (FRASE = 'Conferências nos últimos quatro anos sobre política para mulheres')  |
+|  24  |  %_total_numero_municipios_conferencia_politicas_para_mulheres  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |
+|  25  |  numero_municipios_conferencia_politicas_para_mulheres  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |           
+|  26  |  indicador_protecao_vitimas_violencia  |  (FRASE = 'Proteção de mulheres vítimas de violência doméstica')  |                            
+|  27  |  %_total_numero_municipios_protecao_vitimas_violencia  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |           
+|  28  |  numero_municipios_protecao_vitimas_violencia  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |                   
+|  29  |  indicador_lei_especifica_violencia  |  (FRASE = 'Lei Específica sobre Enfrentamento à violência contra a mulher')  |                              
+|  30  |  %_total_numero_municipios_lei_especifica_violencia  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |             
+|  31  |  numero_municipios_lei_especifica_violencia  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |                       
+|  32  |  indicador_prog_específicas_para_mulheres  |  (FRASE = 'Programas e ações específicas para mulheres')  |                        
+|  33  |  %_total_numero_municipios_prog_específicas_para_mulheres  |  (Porcentagem numerica em relação ao total de municípios que confirmam aplicar esta política pública)  |       
+|  34  |  numero_municipios_prog_específicas_para_mulheres  |  (Quantidade numerica de municípios que confirmam aplicar esta política pública)  |               
+|  35  |  indicador_acoes_PM  |  (FRASE = 'Ações de Prevenção da Polícia Militar quanto ao Enfrentamento à Violência doméstica e de gênero')  |                                             
+|  36  |  acoes_junto_a_PM  |  (SIM ou NÃO para o estado que aplica ou não esta política pública)  |                                                
+|  37  |  tentativa_2020  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2020 por Estado)  |                                              
+|  38  |  consumado_2020  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2020 por Estado)  |   
+|  39  |  tentativa_2021  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2021 por Estado)  |                                                   
+|  40  |  consumado_2021  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2021 por Estado)  |                                                  
+|  41  |  tentativa_2022  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2022 por Estado)  |                                                
+|  42  |  consumado_2022  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2022 por Estado)  |                                                  
+|  43  |  tentativa_2023  |  (Quantidade de Homicidio Feminino TENTADO no ano de 2023 por Estado)  |                                                 
+|  44  |  consumado_2023  |  (Quantidade de Homicidio Feminino CONSUMADO no ano de 2023 por Estado)  |                                                  
+|  45  |  total_tentativas_homicidio  |  (Soma de todas as colunas de todos os anos de Homicidio Feminino TENTADO por Estado)  |                                     
+|  46  |  total_homicidio_consumado  |  (Soma de todas as colunas de todos os anos de Homicidio Feminino CONSUMADO por Estado)  |                  
+|  47  |  homicidios_2020  |  (Total de Homicidios Femininos ocorridos no ano de 2020)  |                                                
+|  48  |  homicidios_2021  |  (Total de Homicidios Femininos ocorridos no ano de 2021)  |                                                  
+|  49  |  homicidios_2022  |  (Total de Homicidios Femininos ocorridos no ano de 2022)  |                                                  
+|  50  |  homicidios_2023  |  (Total de Homicidios Femininos ocorridos no ano de 2023)  |                                                  
+|  51  |  total_feminicidios_2020  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2020)  |                                        
+|  52  |  total_feminicidios_2021  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2021)  |                                        
+|  53  |  total_feminicidios_2022  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2022)  |                                        
+|  54  |  total_feminicidios_2023  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2023)  |                                          
+|  55  |  total_feminicidios_2024  |  (Soma de Feminicidios TENTADO e CONSUMADO do ano de 2024)  |
 
   ### 📚 Ferramentas Utilizadas:
   
