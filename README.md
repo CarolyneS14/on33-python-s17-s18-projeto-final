@@ -1,6 +1,6 @@
 # 📈📉📊 Estatística Criminal do Feminicídio nas Unidades da Federação
 
-[![pptx](/Capa_pptx.jpg)](https://docs.google.com/presentation/d/1RHGsovdnWhP2myDpJVKSPxXjwzhzCGcH/edit?usp=drive_link&ouid=103014318842924902559&rtpof=true&sd=true)
+[![pptx](/Capa_pptx.png)](https://docs.google.com/presentation/d/1RHGsovdnWhP2myDpJVKSPxXjwzhzCGcH/edit?usp=drive_link&ouid=103014318842924902559&rtpof=true&sd=true)
 
 ## 📚 Descrição da Atividade
 
@@ -98,7 +98,7 @@ A base final de dados [FeminicidioPorEstado](https://github.com/CarolyneS14/on33
 
 Link para consulta do dashboard no tableau Public:
 
-[![dashboard](/Apresentacao.jpg)](https://public.tableau.com/app/profile/carolyne.santos.de.oliveira/viz/on33-python-s17-s18-projeto-finalEstatsticaCriminaldoFeminicdionasUnidadesdaFederao/Apresentao2)
+[![dashboard](/Apresentacao.png)](https://public.tableau.com/app/profile/carolyne.santos.de.oliveira/viz/on33-python-s17-s18-projeto-finalEstatsticaCriminaldoFeminicdionasUnidadesdaFederao/Apresentao2)
 
 ## 📋 Passo a Passo
 
