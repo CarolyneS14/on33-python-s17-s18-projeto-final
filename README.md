@@ -107,45 +107,54 @@ Link para consulta do dashboard no Tableau Public:
 
 ## 🟦 Análises:
 
-Nesta base de dados,
+Nesta base de dados, analisamos os registros de feminicídio, tanto tentado quanto consumado, no período de 2020 ao primeiro semestre de 2024. O gráfico abaixo apresenta a distribuição total de casos por região, permitindo uma visão clara da concentração dos incidentes ao longo dos anos.
 
-![Grafico1]( )
+![Total_Fem_Regi](/Graficos/Colab/Total_Fem_Regi.png)
 
-No segundo gráfico, 
+O segundo gráfico apresenta um gráfico de pizza que ilustra a distribuição dos registros de feminicídio por região, proporcionando uma visão percentual clara de como os casos estão distribuídos geograficamente.
 
-![Grafico2]( )
+As regiões com maior numero de casos de feminicidio são:
 
-Na terceira análise,.
+- Sudeste, com um total de 4747 casos (27,4%).
+- Nordeste, com um total de 4529 casos (26,1%).
+- Sul com um total de 3349 casos (19,3%).
+- Centro-Oeste com um total de 2440 casos (14,1%).
+- Norte com um total de 2259 casos (13%).
 
-![Grafico3]( )
+![Distribui_Fem_Reg](/Graficos/Colab/Distribui_Fem_Reg.png)
 
-No gráfico de barras
+Na terceira análise, comparamos a porcentagem de feminicídios dentro do total de homicídios femininos em cada estado.
 
-![Grafico4]( )
+Ao analisarmos os gráficos apresentados, é evidente o número alarmante de homicídios do gênero feminino. Contudo, uma parte desses casos se insere nas estatísticas de feminicídio. A análise revela que alguns estados brasileiros apresentam uma alta correlação entre homicídios femininos e feminicídios. Um exemplo notável é o Mato Grosso do Sul, que registra um total de 221 homicídios femininos, dos quais 155 são classificados como feminicídios, correspondendo a impressionantes 70,14% dos homicídios femininos no estado. Isso indica que mais de 70% desses casos são considerados feminicídios, também conhecidos como crimes de gênero. Outro exemplo é o estado de Santa Catarina que apresenta um total de 564 homicídios femininos, dos quais 289 são classificados como feminicídios, ou seja, correspondem a 51,24% dos homicídios femininos no estado.
 
-No gráfico de barras
+![Comp_Fem_Hom](/Graficos/Colab/Comp_Fem_Hom.png)
 
-![Grafico5]( )
+No gráfico de linhas abaixo temos a evolução do número de feminicídios entre os anos de 2020 a 2023 por Estado.
 
-Ao analisarmos a base de dados de forma diferente
+Este gráfico ilustra um aumento consistente nos casos de feminicídio ao longo dos anos na maioria dos estados brasileiros. Essa tendência alarmante não apenas reflete a gravidade da situação, mas também destaca a necessidade urgente de ações eficazes para combater a violência de gênero. Além disso, a análise revela que algumas regiões apresentam um crescimento mais acentuado, indicando que o problema é multifacetado e pode ser influenciado por fatores sociais, econômicos e culturais específicos de cada estado. Portanto, é fundamental promover políticas públicas e iniciativas de conscientização que abordem essas questões de forma abrangente e eficaz.
 
-![Grafico6]( )
+![Evolucao_estados](/Graficos/Colab/Evolucao_estados.png)
 
-No gráfico 
+Nos gráficos de barras abaixo, analisamos se os estados com as maiores taxas de desemprego também apresentam uma taxa elevada de feminicídios ao longo do ano de 2022.
 
-![Grafico7]( )
+Ao comparar os dois gráficos, observamos que os estados com a maior taxa de desemprego não coincidem com aqueles que apresentam os maiores índices de feminicídio. Isso indica que não podemos afirmar que existe uma relação direta entre uma alta taxa de desemprego e um aumento nos casos de feminicídio.
 
-No gráfico de dispersão, 
+![taxa_desemp_fem_1](/Graficos/Colab/taxa_desemp_fem_1.png)
 
-![Grafico8]( )
+![taxa_desemp_fem_2](/Graficos/Colab/taxa_desemp_fem_2.png)
 
-No histograma abaixo,
+Nossa próxima análise examina a quantidade de delegacias especializadas no atendimento à mulher e as taxas de feminicídios por estado no ano de 2020.
 
-![Grafico9]( )
+A análise revela que os estados com o maior número de feminicídios em 2020 apresentam uma quantidade inadequada de delegacias especializadas em atender casos de violência de gênero. Essa discrepância é preocupante, pois a sub-representação de delegacias pode dificultar o acesso das vítimas à justiça e à proteção adequada. Além disso, a falta de recursos e treinamento específico para os profissionais dessas delegacias pode contribuir para a subnotificação dos casos e a impunidade. Portanto, é fundamental que haja um aumento na implementação de delegacias especializadas, acompanhadas de um investimento em capacitação e recursos, para garantir que as vítimas recebam o apoio necessário e que os casos de feminicídio sejam tratados com a seriedade que merecem.
 
-No gráfico de barras abaixo, 
+![deleg_femin](/Graficos/Colab/deleg_femin.png)
 
-![Grafico10]( )
+O gráfico abaixo ilustra a redução no número de feminicídios por estado, comparando os anos de 2020 e 2023.
+
+Na análise acima, observamos que, ao comparar os anos de 2020 e 2023, apenas três estados conseguiram reduzir o número de feminicídios: Rio Grande do Sul, Maranhão e Piauí. Além disso, o estado da Paraíba manteve a mesma quantidade de casos. Por outro lado, todos os outros estados apresentaram um aumento expressivo no número de feminicídios registrados.
+
+![queda_crimes](/Graficos/Colab/queda_crimes.png)
+
 
  ### - Conclusão:
 
@@ -155,7 +164,7 @@ Apesar dos avanços em políticas de combate à violência de gênero, como a cr
 Reforçamos a importância de mais investimentos em proteção e conscientização, especialmente em áreas urbanas e rurais com altos índices de violência de gênero. 
 Uma abordagem multifacetada é essencial para reduzir esses números e promover uma sociedade mais segura para todas as mulheres.
     
- ### - Links Uteis:
+ ### - Links Uteis/Fontes:
 
 
 🌎 [Mapa das Delegacias da Mulher](https://azmina.com.br/projetos/delegacia-da-mulher/)
@@ -174,6 +183,9 @@ Uma abordagem multifacetada é essencial para reduzir esses números e promover 
 
 
 🌎 [Base dos Dados](https://basedosdados.org/)
+
+
+🌎 [IBGE](https://cidades.ibge.gov.br/brasil/pesquisa/10073/91256)
 
 
 ## 👩🏻‍🏫 Professora Patrícia Bongiovanni Catandi.
